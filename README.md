@@ -25,6 +25,7 @@ DBS_Prediction_TW/
 ├── collector.py               # Data collection and TW calculation
 ├── collector_utils.py         # Helper for collector utilities
 ├── preprocessing.m            # MEG-LFP feature extraction (MATLAB)
+├── fooof_lfp.m                # Apply FOOOF to LFP
 ├── predictor.py               # XGBoost model training & prediction
 ├── analyser.py                # Performance metrics & visualization
 ├── config.json                # Configuration parameters
