@@ -1,0 +1,63 @@
+{
+  "PATHS": {
+    "ROOT": "/home/rasfay01/Toolbox",
+    "EXCEL_SHEETS": "/home/rasfay01/Toolbox/excel_sheets_cleanup",
+    "MPR_FILENAME": "/home/rasfay01/DBS_Prediction_TW/monopolar.xlsx",
+    "FEAT_DIR": "/home/rasfay01/Toolbox/features",
+    "BEAMFORMER_DIR": "dics/avg/no_fooof/med_off/monopolar",
+    "RESULTS_DIR": "/home/rasfay01/DBS_Prediction_TW/results/",
+    "PREDICTOR_OUTPUT": "/home/rasfay01/DBS_Prediction_TW/results/prediction_runs"
+  },
+  "PROJECT": {
+    "BEAMFORMER": "dics",
+    "MIN_CONTACTS_FOR_HIT":4
+  },
+  "COLLECTION": {
+    "MPR_DATE_STRATEGY": "More",
+    "EFFECT_PARAM": "Substantial",
+    "CONTACT_TYPE": "All",
+    "TW_ANALYSE_MODE": "Rel",
+    "MAX_TESTED_MA": 6.0,
+    "MIN_TESTED_MA": 0.1
+  },
+  "FEATURES": {
+    "ALL_ROIS": [
+      "LFP",
+      "Angular",
+      "Cerebellum",
+      "Frontal",
+      "Occipital",
+      "Parietal",
+      "Sensorimotor",
+      "SupraMarginal",
+      "Temporal"
+    ],
+    "ALL_FREQUENCY": [
+      "theta",
+      "alpha",
+      "low-beta",
+      "high-beta",
+      "low-gamma",
+      "high-gamma",
+      "sHFO",
+      "fHFO"
+    ],
+    "SIG_TYPES": [
+      "lfp_pow",
+      "lfp_meg_coh"
+    ]
+  },
+  "MODEL": {
+    "CV_SCHEMES": [
+      "LOOsubject",
+      "LOOelectrode",
+      "LOO"
+    ],
+    "DEFAULT_CV": "LOOelectrode",
+    "FEAT_SEL_METHOD": "borutanested",
+    "BORUTA_N_SPLITS": 10,
+    "BORUTA_THRESHOLD": 0.7,
+    "MAX_EVALS": 100,
+    "PERM":10000
+  }
+}
