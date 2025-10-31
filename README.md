@@ -5,7 +5,7 @@
 
 
 > Machine learning framework for predicting therapeutic windows in Deep Brain Stimulation for Parkinson's Disease using magnetoencephalography and local field potentials.
-> <br> <br> Article: Electrophysiological signatures predict the therapeutic window of deep brain stimulation electrode contacts 
+> <br> <br>[Electrophysiological signatures predict the therapeutic window of deep brain stimulation electrode contacts](https://www.nature.com/articles/s41746-025-02089-w)
 
 ## 🧠 Overview
 
@@ -38,8 +38,9 @@ Prerequisites
 
 ## 📄 Citation
 If you use this code, please cite:
+
 ```bibtex
-Electrophysiological signatures predict the therapeutic window of deep brain stimulation electrode contacts.
+Rassoulou, F. et al. Electrophysiological signatures predict the therapeutic window of deep brain stimulation electrode contacts. npj Digit. Med. 8, 635 (2025).
 ```
 
 ## 📝 License
